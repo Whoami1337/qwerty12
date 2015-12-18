@@ -1,0 +1,47 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+<?php
+$summa=0;
+$dannie[1] = array (
+'Фамилия' => "Ilin",
+'Name' => "Maxim",
+'пол' => "m",
+'год рождения'  => 1995
+      );	
+	  
+$dannie[2] = array (
+'Фамилия' => "Mahmutov",
+'Name' => "Il'ya",
+'пол' => "m",
+'год рождения'  => 1995
+      );
+$dannie[3] = array (
+'Фамилия' => "Shtykov",
+'Name' => "Alexander",
+'пол' => "m",
+'год рождения'  => 1994
+      );
+$dannie[4] = array (
+'Фамилия' => "SHvetsova",
+'Name' => "Daria",
+'пол' => "w",
+'год рождения'  => 1995
+      );
+$dannie[5] = array (
+'Фамилия' => "Birukov",
+'Name' => "Sergey",
+'пол' => "m",
+'год рождения'  => 1996
+      );
+for ($i=1;$i<=5;$i++)	 { 
+if ($dannie[$i]['год рождения']=="1994"){
+$summa++;
+}
+}
+echo "Studentov s godom rojdeniya 1994", " - ", $summa.'<br/>';
+?>
+</body>
+</html>
