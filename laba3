@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+<title>laba1337</title>
+</head>
+<body>
+<div class = "container">
+<div class="cols col-12">
+<h1>Ильин Максим Александрович</h1>
+</div>
+
+<div class="cols col-8">
+
+<div class="cols col-12" id="foto">
+<img id="photo" class="fota" src="T9xp8_VTTVQ.jpg">
+</div>
+<div class="cols col-6" id="books">
+<h2>Любимые книги</h2>
+<h3>
+<ul class="otstup">
+  <li>Девушка в поезде</li>
+  <li>Приключение Тома Соера</li>
+  <li>Маленький принц</li>
+  <li>Все или Ничего</li>
+</ul>
+</h3>
+</div>
+
+<div class="cols col-6" id="films">
+<h2>Любимые фильмы</h2>
+<h3>
+<ul class="otstup">
+  <li>Никогда не сдавайся</li>
+  <li>Хорошо быть тихоней</li>
+  <li>Карты, деньги, два ствола</li>
+  <li>Уличные танцы</li>
+  <li>1000 слов</li>
+  <li>Неоспоримый</li>
+  <li>Мой любимый марсианин</li>
+  <li>Сволочи</li>
+</ul>
+</h3>
+</div>
+
+<div class="cols col-6" id="love">
+<h2>Нравиться</h2>
+<h3>
+<ul class="otstup">
+  <li>Кушать</li>
+  <li>Кататься на коньках</li>
+  <li>Слушать музыку</li>
+  <li>Играть в теннис</li>
+  <li>Смотреть сериалы</li>	
+</ul>
+</h3>
+</div>
+<div class="cols col-6" id="hate">
+<h2>Ненавижу</h2>
+<h3>
+<ul class="otstup">
+  <li>Оставаться один</li>
+  <li>Смену обстановки</li>
+  <li>Алчных людей</li>	
+</ul>
+</h3>
+</div>
+</div>
+
+<div class="cols col-4" id ="media">
+
+<div class="cols col-12" id="stih">
+<h2>Ангел</h2>
+<h3 id="Poem"> 
+По небу полуночи ангел летел
+И тихую песню он пел;
+И месяц, и звезды, и тучи толпой
+Внимали той песне святой.
+
+Он пел о блаженстве безгрешных духов
+Под кущами райских садов;
+О боге великом он пел, и хвала
+Его непритворна была.
+
+Он душу младую в объятиях нес
+Для мира печали и слез,
+И звук его песни в душе молодой
+Остался, — без слез, но живой.
+
+И долго на свете томилась она,
+Желанием чудным полна;
+И звуков небес заменить не могли
+Ей скучные песни земли.<br>
+</h3>
+</div>
+<div class="cols col-12" id="trek">
+<h2>Музыка. OBLADAET</h2>
+
+<audio controls class="pesnya">
+<source src="Iskrennost-nomereni.mp3" type="audio/mpeg">
+</audio>
+<h4 class "nazvpesni">Искренность намерений</h4>
+
+<audio controls class="pesnya">
+<source src="LNIP.mp3" type="audio/mpeg">
+</audio>
+<h4 class "nazvpesni">LNIP</h4>
+
+<audio controls class="pesnya">
+<source src="Istochnik-nepriyatnostei.mp3" type="audio/mpeg">
+</audio>
+<h4 class "nazvpesni">Источник неприятностей</h4>
+</div>
+
+<div class="cols col-12" id="video">
+<h2>Видео</h2>
+<video id="vid" controls="controls">  
+<source src="Lenka.mp4" type="video/mp4">Blue Skies</source>
+</video>
+</div>
+</div>
+<div class="cols col-12" id ="footer">
+<h5>1337 - илитка</h5>
+</div>
+</div>
+</body>
+</html>
