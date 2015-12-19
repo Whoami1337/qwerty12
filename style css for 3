@@ -1,0 +1,125 @@
+.container {
+width: 90%;
+height: 1200px;
+background: green;
+float: center;
+margin: auto;
+}
+.cols{
+float: left;
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 24.99%;}
+.col-4{
+width: 29.32%;
+}
+.col-5{width: 41.65%;}
+.col-6{width: 50%;}
+.col-7{width: 58.31%;}
+.col-8{
+width: 62.64%;
+height: 900px;
+background: blue;
+text-align:left;
+margin:2% 2%;
+}
+.col-9{width: 74.97%;}
+.col-10{width: 87.3%;}
+.col-11{width: 91.63%;}
+.col-12{
+width: 100%;
+height: 110px;
+background: blue;
+text-align:center;
+color: white;
+}
+.fota
+{
+width: 500px;
+}
+h3{
+text-align:left;
+}
+h2{
+text-align:center;
+}
+h5{
+color: black;
+}
+h5:hover{
+color: white;
+}
+.otstup{
+margin:15px 15px;
+}
+.pesnya{
+width: 350px;
+float: right;
+margin: 0 20px;
+}
+.nazvpesni
+{
+margin: 0 20px;
+float: left;
+}
+#media{
+height: 900px;
+background: red;
+text-align:left;
+float:right;
+margin:2% 2%;
+}
+#foto{
+background: blue;
+height: 300px;
+}
+#books{
+height: 300px;
+background: red;
+text-align:left;
+float:left;
+}
+#films{
+background: blue;
+height: 300px;
+float:right;
+}
+#love{
+background: blue;
+height: 300px;
+float:left;
+}
+#hate{
+background: red;
+height: 300px;
+float:right;
+}
+#stih{
+background: blue;
+height: 300px;
+float:left;
+overflow-y: auto;
+}
+#trek{
+background: red;
+height: 300px;
+float:left;
+}
+#video{
+background: blue;
+height: 300px;
+float:left;
+}
+#footer{
+background: black;
+height: 122px;
+float:left;
+}
+#Poem{
+margin: 5px 5px;
+}
+#vid{
+width: 90%;
+height: 70%;
+}
